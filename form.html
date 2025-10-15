@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="./response.html" target="_blank" Name="Biodata" method="get">
+    <fieldset>
+        <legend>Biodata</legend>
+            <lable for="Name">Name:</lable>
+            <input type="text" id="Name" Name="Name" placeholder="enter your Name" required>
+            <br>
+            <br>
+            <lable for="dob">DOB:</lable>
+             <input type="date" id="dob" Name="dob" placeholder="enter your DOB" required>
+
+             <br>
+            <br>
+
+             <lable for="tel">Phone:</lable>
+              <input type="tel" id="tel" Name="tel" placeholder="enter your Phone number" required>
+
+ <br>
+            <br>
+
+             <lable for="email">Email:</lable>
+              <input type="email" id="email" Name="email" placeholder="enter your Email" required>
+
+ <br>
+            <br>
+
+             <lable for="attempt">Attempt:</lable>
+              <input type="number" id="attempt" Name="attempt" min="1" required>
+
+               <br>
+            <br>
+
+             <lable for="gender">Gender:</lable>
+              <input type="radio" id="male" Name="gender" value="male" required>
+             <lable for="male">Male</lable>
+            <lable for="gender"></lable>
+              <input type="radio" id="female" Name="gender" value="female" required>
+              <lable for="female">Female</lable>
+              <br>
+              <br>
+              <lable for="check">Vehicles you have:</lable>
+              <input type="checkbox" id="Bike" Name="vehicle1" value="bike" required>
+              <lable for="bike">Bike</lable>
+              <input type="checkbox" id="car" Name="vehicle1" value="car" checked required>
+              <lable for="car">Car</lable>
+              <br>
+              <br>
+              <lable for="lang">Select your programing languages:</lable>
+              <select name="language" id="lang" required>
+    
+                <optgroup label="programing languages">
+        <option>select language</option>
+        <option value="phython">phython</option>
+        <option value="java">java</option>
+        <option value="javascript">javascript</option>
+        <option value="c++">c++</option>
+        </optgroup>
+        <optgroup label="frontend languages">
+         <option value="html">html</option>
+          <option value="css">css</option>
+          </optgroup>
+           
+    </select>
+
+    <br><br>
+    
+    <lable for="appoint">Appointment</lable>
+    <input type="time" id="appoint" name="appoint" required>
+    <br><br>
+
+    <label for="add">Address:</label>
+    <textarea name="text" id="Address" ></textarea>
+
+    <br><br>
+
+    <label for="password">Password</label>
+    <input type="password" id="Password">
+    <br>
+    <br>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+
+
+    </fieldset>
+    </form>
+</body>
+</html>
